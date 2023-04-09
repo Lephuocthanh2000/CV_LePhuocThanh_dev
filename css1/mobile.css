@@ -1,0 +1,5 @@
+@media (min-width: 300) and (max-width: 500) {
+  .team {
+    width: 100%;
+  }
+}

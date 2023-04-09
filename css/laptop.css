@@ -1,0 +1,429 @@
+@media (min-width: 1200px) {
+  i {
+    color: #199cdb;
+  }
+  /* phần banner */
+  .banner {
+    position: relative;
+    text-align: center;
+    z-index: 10;
+  }
+  .banner .text-banner {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #f7f7f7;
+    font-size: 24px;
+  }
+  /* Phần navbar */
+
+  .navbar-laptop {
+    position: relative;
+    text-align: center;
+    background-color: white;
+    overflow: visible;
+    width: 100%;
+    background-color: whitesmoke;
+  }
+  .navbar-laptop .row {
+    width: 100%;
+    align-self: center;
+  }
+  .navbar-laptop a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    width: 100%;
+  }
+  .navbar-laptop a.avartar {
+    box-shadow: none;
+    height: fit-content;
+    width: fit-content;
+  }
+  .avatar-item {
+    height: min-content;
+    width: min-content;
+  }
+  .navbar-item {
+    /* height: 50px;
+    width: 90px;
+    width: max-content;
+    position: relative; */
+    border: 1px solid #9ea2a3;
+    box-shadow: 1px 1px 1px rgb(161, 158, 158);
+    height: fit-content;
+    width: fit-content;
+    text-align: center;
+    margin: 5px;
+    /* border-radius: 50%;
+    top: -180px;
+    margin-bottom: 15%;
+    left: -10%; */
+  }
+  .avartar-item {
+    width: fit-content;
+  }
+  #avartar .navbar-item {
+    border: 0px;
+  }
+  .navbar-item i {
+    display: flex;
+  }
+  /* Nav - bar */
+  .navbar-laptop .row {
+    margin-top: -5%;
+    margin-bottom: -5%;
+  }
+  .navbar-laptop a:hover {
+    background-color: #ddd;
+  }
+
+  .navbar-laptop a.active {
+    background-color: #04aa6d;
+    color: white;
+  }
+
+  .navbar-laptop span {
+    font-size: 14px;
+  }
+  .navbar-laptop img {
+    position: relative;
+    width: 70%;
+    height: 60%;
+    border-radius: 50%;
+    margin-top: 0px;
+    border: 15px solid white;
+    z-index: 10;
+  }
+  /* */
+  /* Thông tin  cá nhân */
+  .about {
+    position: relative;
+    width: 100%;
+    background-color: #f7f7f7;
+    align-items: stretch;
+  }
+  .about h1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .about p {
+    margin-right: 30px;
+  }
+  .about .section-title {
+    font-size: 32px;
+    padding-left: 0px;
+  }
+  /* Mục tiêu nghề nghiệp */
+  .target {
+    background-color: #adbcc3;
+    padding-right: 30px;
+    padding-left: 200px;
+    font-size: 16px;
+    justify-items: end;
+    line-height: 1.8;
+    font-family: 'et-line', sans-serif;
+  }
+  .about .personal-info {
+    padding-left: 30px;
+    justify-items: start;
+    background-color: rgb(166, 200, 214);
+  }
+  .about .personal-info .info-icon {
+    color: #0c1bf0;
+    padding-top: 15px;
+    margin-bottom: 20px;
+  }
+  .personal-info .info-icon i {
+    margin: 5px;
+  }
+  /*job-info Xây dựng phần Thông tin nghề nghiệp  */
+  .job-info .job-info-content ul {
+    list-style: none; /* Remove default bullets */
+  }
+  .job-info .job-info-content li {
+    position: relative;
+    margin: 0;
+    padding: 0;
+  }
+  .job-info ul li::before {
+    position: absolute;
+
+    content: '•';
+    color: #199cdb; /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+    font-size: 1em;
+    align-self: center;
+  }
+  .job-info h3 {
+    font-size: larger;
+  }
+  .job-info-item {
+    border: 1px solid rgb(188, 185, 185);
+    box-shadow: 2px 2px 5px rgb(188, 185, 185);
+  }
+  .job-info .job-info-tiltle {
+    justify-self: end;
+    padding-right: 50px;
+  }
+  .job-info .job-info-icon {
+    justify-items: start;
+  }
+  .job-info .job-info-content h3 {
+    margin: 20px 0 0;
+  }
+
+  .job-info .job-info-content p {
+    margin: 15px 0px;
+  }
+  .job-info button {
+    background-color: #199cdb;
+    color: #ddd;
+    border: 0px;
+    border-radius: 15px;
+    margin-left: 10px;
+    height: 30px;
+    width: 30%;
+    font-size: 16px;
+  }
+  .job-info-content {
+    padding-left: 0px;
+    margin-top: 30px;
+    line-height: 1.8;
+    margin-bottom: 30px;
+  }
+  /* Kinh nghiệm */
+  .experience .job-info-content {
+    padding-left: 0px;
+    margin-top: 30px;
+    line-height: 1.8;
+  }
+  /* học vấn */
+
+  .education .job-info-content {
+    line-height: 1.7;
+    margin: 10px;
+  }
+  /* Sở thích */
+  .hobby .job-info-content .center {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid #199cdb;
+    margin-bottom: 10px;
+  }
+  .center i {
+    padding: 15px;
+  }
+  /* Ngoại ngữ */
+  .languges .job-info-content {
+    justify-self: start;
+    padding-left: 30px;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin: 10px;
+  }
+}
+/* Kỹ năng */
+.job-info .skill .job-info-content {
+  justify-self: start;
+  padding-left: 30px;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin: 15px;
+}
+.job-info-content span {
+  background: #9ea2a3;
+  display: inline-block;
+  height: 4px;
+  margin-right: 10px;
+  width: 45px;
+  margin: 10px 5px;
+}
+.job-info-content span-1 {
+  background: #2aabe6;
+  display: inline-block;
+  height: 4px;
+  margin-right: 10px;
+  width: 45px;
+  margin: 10px 5px;
+}
+/* CHỨNG CHỈ
+.certificate {
+  height: max-content;
+}
+.certificate .section-title {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.grid-item img {
+  width: 45%;
+  margin: 10px;
+}
+
+.certificate .grid-item-content h3 {
+  font-size: medium;
+}
+/* Project */
+/* .project .container-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+.project .project-item {
+  display: grid;
+  grid-template-rows: 35% 20% 10% 35%;
+  margin: 10px;
+}
+.project .project-item-years {
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+.project p {
+  display: flex;
+  flex-direction: row;
+  margin: 5px;
+  padding: 5px;
+}
+.project i {
+  width: 30px;
+}
+.project .project-item-title h3 {
+  padding: 20px;
+}
+.project button {
+  border-radius: 15px;
+  width: 80%;
+  height: 30px;
+  padding-bottom: 3px;
+}
+.project tr {
+  box-shadow: 0 -1px 1px rgb(59, 57, 57);
+}
+.project .project-item-content {
+  line-height: 1.5;
+}
+.project img {
+  padding: 20px;
+  width: 100%;
+  height: auto;
+}
+*/
+*/
+/* CHỨNG CHỈ */
+.certificate {
+  background-color: #fbf8fb;
+  margin: 20px;
+  height: 100%;
+}
+.certificate .grid-item-content {
+  text-align: start;
+  font-size: 13px;
+  line-height: 1.8;
+  padding: 10px;
+}
+.certificate .grid-item-content h3 {
+  font-size: large;
+}
+.certificate .section-title {
+  margin-bottom: 15px;
+}
+.grid-item {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  border: 1px solid #da7f25;
+  margin: 15px 0px;
+}
+
+.grid-item img {
+  width: 45%;
+  margin: 10px;
+}
+.grid-item .grid-item-content {
+  font-size: 13px;
+  line-height: 1.8;
+  padding: 10px;
+}
+
+/* Project */
+.project .project-item {
+  margin-right: 2rem;
+  border: 1px solid rgb(188, 185, 185);
+  box-shadow: 2px 4px 5px rgb(188, 185, 185);
+  padding: 15px;
+}
+.project .project-item-years {
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+  width: 100%;
+}
+.project h3 {
+  font-size: large;
+}
+.project p {
+  display: flex;
+  flex-direction: row;
+  margin: 5px;
+  padding: 5px;
+}
+.project a {
+  text-decoration: none;
+  text-decoration-color: black;
+}
+.project i {
+  margin-right: 10px;
+  width: 30px;
+}
+.project .project-item-title h3 {
+  padding: 20px;
+}
+.project button {
+  border: 1px solid #199cdb;
+  background-color: #199cdb;
+  border-radius: 1px 1px 1px white;
+  border-radius: 15px;
+  width: 100px;
+  height: fit-content;
+  padding-bottom: 3px;
+}
+.project span {
+  color: #f7f7f7;
+}
+.project tr {
+  box-shadow: 0 -1px 1px rgb(59, 57, 57);
+}
+.project .project-item-content {
+  border: 1px soild black;
+  text-align: start;
+  color: black;
+  line-height: 1.5;
+}
+.project img {
+  text-align: center;
+  width: 100%;
+  height: auto;
+}
+
+/* Footer */
+
+.footer i {
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 150% !important;
+}
+
+.banner img {
+  width: 100%;
+  filter: brightness(80%);
+}
